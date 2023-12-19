@@ -5,3 +5,4 @@
       the sound cell has no letter, it has 0 width, so the non-empty cell sinks
       towards the neighboring empty cell.
 - [ ] add the dots in between the vowel pairs : https://upload.wikimedia.org/wikipedia/commons/8/8f/IPA_chart_2020.svg
+- [ ] rename ipa.mustache to index.mustache

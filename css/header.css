@@ -1,0 +1,28 @@
+header {
+  z-index: 999;
+  position: absolute;
+  top: 1rem;
+  /* There's a problem with <800px width */
+  left: calc(50vw + (800px / 2 - 2.8rem));
+}
+
+@media (max-width: 800px) {
+  header {
+    left: calc(100vw - 4rem);
+  }
+}
+
+header svg {
+  fill: var(--gray-dark-20);
+  stroke: var(--gray-dark-20);
+}
+header svg:hover {
+  fill: var(--primary-light-10);
+  stroke: var(--primary-light-10);
+}
+
+/* header {
+  position: sticky;
+  top: 1rem;
+  right: 1rem;
+} */

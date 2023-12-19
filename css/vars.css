@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap");
+
+:root {
+  --primary-dark-20: #804651;
+  --primary-dark-10: #cc334f;
+  --primary: #ff4062;
+  --primary-light-10: #ff5372;
+  --primary-light-20: #ec8698;
+
+  --gray-dark-20: #707070;
+  --gray-dark-10: #a3a3a3;
+  --gray: #d5d5d5;
+  --gray-light-10: #dadada;
+  --gray-light-20: #f3f3f3;
+
+  --blue-dark-20: #127096;
+  --blue-dark-10: #1f769c;
+  --blue: #1b89b5;
+  --blue-light-10: #95dbf3;
+  --blue-light-20: #dff1fb;
+
+  --serif: "Lora", serif;
+  --sans-serif: "Roboto", sans-serif;
+}
