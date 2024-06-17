@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Interactive International Phonetic Alphabet" />
+  <title>International Phonetic Alphabet | IPA</title>
+
+  <link rel="stylesheet" href="./css/vars.css">
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/tables.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <!-- <script src="./components/sound.js"></script> -->
+  <script defer src="./js/out.js"></script>
+</head>
+
+<body>
+  <header>
+    <a href="about.html">
+      <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+        <title>About IPA</title>
+        <circle cx="12" cy="12" r="10" stroke-width="1.6"
+          fill="none" />
+        <circle cx="12" cy="8" r="1.5" stroke-width="0" />
+        <line x1="12" y1="12" x2="12" y2="18"
+          style="stroke-width:2" />
+      </svg>
+    </a>
+  </header>
+  <main>
+    <h1>The International Phonetic Alphabet</h1>
+    <h3>Interactive version</h3>
+
+    <!-- CONSONANTS -->
+    <section id="consonants">
+      <table>
+        <caption>
+          Consonants (pulmonic)
+        </caption>
+        <colgroup class="colhead"></colgroup>
+
+        <colgroup class="bilabial"></colgroup>
+        <colgroup class="labiodental"></colgroup>
+        <colgroup span="3" class="dental"></colgroup>
+        <!-- <colgroup span="2" class="coldata alveolar"></colgroup>
+        <colgroup span="2" class="coldata postalveolar"></colgroup> -->
+        <colgroup></colgroup>
+        <colgroup></colgroup>
+        <colgroup></colgroup>
+        <colgroup></colgroup>
+        <colgroup></colgroup>
+        <colgroup></colgroup>
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Bilabial</th>
+            <th scope="col">Labiodental</th>
+            <th scope="col">Dental</th>
+            <th scope="col">Alveolar</th>
+            <th scope="col">Postalveolar</th>
+            <th scope="col">Retroflex</th>
+            <th scope="col">Palatal</th>
+            <th scope="col">Velar</th>
+            <th scope="col">Uvular</th>
+            <th scope="col">Pharyngeal</th>
+            <th scope="col">Glottal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Plosive</th>
+
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_bilabial_plosive"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/5/51/Voiceless_bilabial_plosive.ogg">
+                  p
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_bilabial_plosive"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/2/2c/Voiced_bilabial_plosive.ogg">
+                  b
+                </ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td colspan="3">
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_dental_and_alveolar_plosives"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/0/02/Voiceless_alveolar_plosive.ogg">
+                  t
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_dental_and_alveolar_plosives"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/0/01/Voiced_alveolar_plosive.ogg">
+                  d
+                </ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_retroflex_plosive"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/b/b0/Voiceless_retroflex_stop.oga">
+                  ʈ
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_retroflex_plosive"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/2/27/Voiced_retroflex_stop.oga">
+                  ɖ
+                </ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_palatal_plosive"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/5/5d/Voiceless_palatal_plosive.ogg">
+                  c
+                </ipa-sound><ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_palatal_plosive"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/1/1d/Voiced_palatal_plosive.ogg">
+                  ɟ
+                </ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_velar_plosive"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/e/e3/Voiceless_velar_plosive.ogg">
+                  k
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_velar_plosive"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/1/12/Voiced_velar_plosive_02.ogg">
+                  ɡ
+                </ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_uvular_plosive"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/1/19/Voiceless_uvular_plosive.ogg">
+                  q
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_uvular_plosive"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/b/b6/Voiced_uvular_stop.oga">
+                  ɢ
+                </ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Glottal_stop"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/4/4d/Glottal_stop.ogg">
+                  ʔ
+                </ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th>Nasal</th>
+
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_bilabial_nasal"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/a/a9/Bilabial_nasal.ogg">m</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_labiodental_nasal"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/1/18/Labiodental_nasal.ogg">ɱ</ipa-sound>
+              </div>
+            </td>
+            <td colspan="3">
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_nasals"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/2/29/Alveolar_nasal.ogg">n</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_retroflex_nasal"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/a/af/Retroflex_nasal.ogg">ɳ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_palatal_nasal"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/4/46/Palatal_nasal.ogg">ɲ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_velar_nasal"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/3/39/Velar_nasal.ogg">ŋ</ipa-sound>
+              </div>
+            </td>
+
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_uvular_nasal"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/3/3e/Uvular_nasal.ogg">ɴ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound shaded></ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound shaded></ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th>Trill</th>
+
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_bilabial_trill"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/e/e7/Bilabial_trill.ogg">ʙ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td colspan="3">
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_trills#Voiced_alveolar_trill"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/c/ce/Alveolar_trill.ogg">r</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound shaded></ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_uvular_trill"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/c/cb/Uvular_trill.ogg">ʀ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound shaded></ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th>Tap or Flap</th>
+
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_labiodental_flap"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/2/2c/Labiodental_flap.ogg">ⱱ</ipa-sound>
+              </div>
+            </td>
+            <td colspan="3">
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_dental_and_alveolar_taps_and_flaps"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/a/a0/Alveolar_tap.ogg">ɾ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_retroflex_flap"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/8/87/Retroflex_flap.ogg">ɽ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound shaded></ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound shaded></ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th>Fricative</th>
+
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_bilabial_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/4/41/Voiceless_bilabial_fricative.ogg">ɸ</ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_bilabial_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/3/37/Voiced_bilabial_fricative.ogg">β</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_labiodental_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/c/c7/Voiceless_labio-dental_fricative.ogg">f</ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_labiodental_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/4/42/Voiced_labio-dental_fricative.ogg">v</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_dental_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/8/80/Voiceless_dental_fricative.ogg">θ</ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_dental_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/6/6a/Voiced_dental_fricative.ogg">ð</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_alveolar_fricative#Voiceless_alveolar_sibilant"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/a/ac/Voiceless_alveolar_sibilant.ogg">s</ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_alveolar_fricative#Voiced_alveolar_sibilant"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/c/c0/Voiced_alveolar_sibilant.ogg">z</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_postalveolar_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/c/cc/Voiceless_palato-alveolar_sibilant.ogg">ʃ</ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_postalveolar_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg">ʒ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_retroflex_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/b/b1/Voiceless_retroflex_sibilant.ogg">ʂ</ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_retroflex_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/7/7f/Voiced_retroflex_sibilant.ogg">ʐ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_palatal_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/a/ab/Voiceless_palatal_fricative.ogg">ç</ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_palatal_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/a/ac/Voiced_palatal_fricative.ogg">ʝ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_velar_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/0/0f/Voiceless_velar_fricative.ogg">x</ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_velar_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/4/47/Voiced_velar_fricative.ogg">ɣ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_uvular_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/c/c8/Voiceless_uvular_fricative.ogg">χ</ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_uvular_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/a/af/Voiced_uvular_fricative.ogg">ʁ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_pharyngeal_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/b/b2/Voiceless_pharyngeal_fricative.ogg">ħ</ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_pharyngeal_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/c/cd/Voiced_pharyngeal_fricative.ogg">ʕ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_glottal_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/d/da/Voiceless_glottal_fricative.ogg">h</ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_glottal_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/e/e2/Voiced_glottal_fricative.ogg">ɦ</ipa-sound>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th>Lateral</br>fricative</th>
+
+            <td>
+              <div class="cell">
+                <ipa-sound shaded></ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound shaded></ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+            <td colspan="3">
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_dental_and_alveolar_lateral_fricatives"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/e/ea/Voiceless_alveolar_lateral_fricative.ogg">ɬ</ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_dental_and_alveolar_lateral_fricatives"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/6/6f/Voiced_alveolar_lateral_fricative.ogg">ɮ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound shaded></ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound shaded></ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th>Approximant</th>
+
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_labiodental_approximant"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/e/ee/Labiodental_approximant.ogg">ʋ</ipa-sound>
+              </div>
+            </td>
+            <td colspan="3">
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_alveolar_and_postalveolar_approximants"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/1/1f/Alveolar_approximant.ogg">ɺ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_retroflex_approximant"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/b/bf/Retroflex_Approximant2.oga">ɺ̢</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_palatal_approximant"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/e/e8/Palatal_approximant.ogg">j</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_velar_approximant"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/5/5c/Voiced_velar_approximant.ogg">ɰ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound shaded></ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th>Lateral</br>approximant</th>
+
+            <td>
+              <div class="cell">
+                <ipa-sound shaded></ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound shaded></ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+            <td colspan="3">
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_lateral_approximants"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/b/bc/Alveolar_lateral_approximant.ogg">l</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_retroflex_lateral_approximant"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/d/d1/Retroflex_lateral_approximant.ogg">ɭ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_palatal_lateral_approximant"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/d/d9/Palatal_lateral_approximant.ogg">ʎ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_velar_lateral_approximant"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/d/d3/Velar_lateral_approximant.ogg">ʟ</ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound shaded></ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound shaded></ipa-sound>
+                <ipa-sound shaded></ipa-sound>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Symbols to the right in a cell are voiced, to the left are
+        voiceless; Shaded areas denote articulations judged
+        impossible.
+      </p>
+    </section>
+
+    <!-- OTHER SYMBOLS -->
+    <section id="other-symbols">
+      <table>
+        <caption>Other symbols</caption>
+        <colgroup class="colhead"></colgroup>
+        <colgroup class="fricative"></colgroup>
+        <colgroup class="approximant"></colgroup>
+        <colgroup class="plosive"></colgroup>
+        <colgroup class="flap"></colgroup>
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Labial-velar</th>
+            <th scope="col">Labial-palatal</th>
+            <th scope="col">Epiglottal</th>
+            <th scope="col">Alveolo-palatal</th>
+            <th scope="col">Alveolar lateral</th>
+            <th scope="col">Palatal-velar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Fricative</th>
+
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_labial%E2%80%93velar_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/a/a7/Voiceless_labio-velar_fricative.ogg">
+                  ʍ
+                </ipa-sound>
+                <ipa-sound></ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_epiglottal_trill"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/7/7b/Voiceless_epiglottal_trill.ogg">
+                  ʜ
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_epiglottal_trill"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/1/18/Voiced_epiglottal_trill_2.ogg">
+                  ʢ
+                </ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_epiglottal_trill"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/7/7b/Voiceless_epiglottal_trill.ogg">
+                  ɥ
+                </ipa-sound>
+                <ipa-sound></ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiceless_alveolo-palatal_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/0/0b/Voiceless_alveolo-palatal_sibilant.ogg">
+                  ɕ
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_alveolo-palatal_fricative"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/1/15/Voiced_alveolo-palatal_sibilant.ogg">
+                  ʑ
+                </ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Sj-sound"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/4/42/Voiceless_dorso-palatal_velar_fricative.ogg">
+                  ɧ
+                </ipa-sound>
+                <ipa-sound></ipa-sound>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th>Approximant</th>
+
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93velar_approximant"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/f/f2/Voiced_labio-velar_approximant.ogg">
+                  w
+                </ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound></ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93palatal_approximant"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/3/32/LL-Q150_%28fra%29-WikiLucas00-IPA_%C9%A5.wav">
+                  ɥ
+                </ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+          </tr>
+          <tr>
+            <th>Plosive</th>
+
+            <td>
+              <div class="cell">
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Epiglottal_plosive"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/b/b2/Epiglottal_stop.ogg">
+                  ʡ
+                </ipa-sound>
+                <ipa-sound></ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th>Flap</th>
+
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell"></div>
+            </td>
+            <td>
+              <div class="cell">
+                <ipa-sound>
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Voiced_dental_and_alveolar_lateral_flaps"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/a/a0/Alveolar_tap.ogg">
+                  ɺ
+                </ipa-sound>
+              </div>
+            </td>
+            <td>
+              <div class="cell">
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- VOWELS -->
+    <section id="vowels">
+      <figure style="margin: 0;">
+        <figcaption style="text-transform: uppercase;">Vowels
+        </figcaption>
+        <div style="position: relative;">
+          <!-- Symbols -->
+          <!-- table head -->
+          <div style="position: absolute;  display: flex; flex-direction: row; gap: 3.2rem;
+            translate: 3.8rem 0.2rem;">
+            <div>
+              <span>Front</span>
+            </div>
+            <div>
+              <span>Central</span>
+            </div>
+            <div>
+              <span>Back</span>
+            </div>
+          </div>
+          <!-- table rows -->
+          <div style="position: absolute;">
+            <div class="close vowels-row"
+              style="translate: 0 1.6rem;">
+              <p>Close</p>
+
+              <div class="cell" style="translate: 4.4rem 0;">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Close_front_unrounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/9/91/Close_front_unrounded_vowel.ogg">
+                  i
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Close_front_rounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/e/ea/Close_front_rounded_vowel.ogg">
+                  y
+                </ipa-sound>
+              </div>
+              <div class="cell" style="translate: 10.2rem 0;">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Close_central_unrounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/5/53/Close_central_unrounded_vowel.ogg">
+                  ɨ
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Close_central_rounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/6/66/Close_central_rounded_vowel.ogg">
+                  ʉ
+                </ipa-sound>
+              </div>
+              <div class="cell" style="translate: 15.8rem 0;">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Close_back_unrounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/e/e8/Close_back_unrounded_vowel.ogg">
+                  ɯ
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Close_back_rounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/5/5d/Close_back_rounded_vowel.ogg">
+                  u
+                </ipa-sound>
+              </div>
+            </div>
+            <div class="close-mid vowels-row"
+              style="translate: 0 3.4em;">
+
+              <p>Close-mid</p>
+
+              <div class="cell" style="translate: 6.4rem 0;">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Close-mid_front_unrounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/6/6c/Close-mid_front_unrounded_vowel.ogg">
+                  e
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Close-mid_front_rounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/5/53/Close-mid_front_rounded_vowel.ogg">
+                  ø
+                </ipa-sound>
+              </div>
+              <div class="cell" style="translate: 11.2rem 0;">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Close-mid_central_unrounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/6/60/Close-mid_central_unrounded_vowel.ogg">
+                  ɘ
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Close-mid_central_rounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/b/b5/Close-mid_central_rounded_vowel.ogg">
+                  ɵ
+                </ipa-sound>
+              </div>
+              <div class="cell" style="translate: 15.8rem 0;">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Close-mid_back_unrounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/2/26/Close-mid_back_unrounded_vowel.ogg">
+                  ɤ
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Close-mid_back_rounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/8/84/Close-mid_back_rounded_vowel.ogg">
+                  o
+                </ipa-sound>
+              </div>
+            </div>
+            <div class="open-mid vowels-row"
+              style="translate: 0 4.8rem;">
+
+              <p>Open-mid</p>
+
+              <div class="cell" style="translate: 8.2rem 0;">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Open-mid_front_unrounded_vowel"
+                  sound="https://en.wikipedia.org/wiki/File:Open-mid_front_unrounded_vowel.ogg">
+                  ɛ
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Open-mid_front_rounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/0/00/Open-mid_front_rounded_vowel.ogg">
+                  œ
+                </ipa-sound>
+              </div>
+              <div class="cell" style="translate: 12.2rem 0;">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Open-mid_central_unrounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/0/01/Open-mid_central_unrounded_vowel.ogg">
+                  ɜ
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Open-mid_central_rounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/d/d9/Open-mid_central_rounded_vowel.ogg">
+                  ɞ
+                </ipa-sound>
+              </div>
+              <div class="cell" style="translate: 15.8rem 0;">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Open-mid_back_unrounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/8/80/PR-open-mid_back_unrounded_vowel2.ogg">
+                  ʌ
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Open-mid_back_rounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/d/d0/PR-open-mid_back_rounded_vowel.ogg">
+                  ɔ
+                </ipa-sound>
+              </div>
+            </div>
+            <div class="open vowels-row" style="translate: 0 6.4rem;">
+              <p>Open</p>
+
+              <div class="cell" style="translate: 10rem 0;">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Open_front_unrounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/6/65/Open_front_unrounded_vowel.ogg">
+                  a
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Open_front_rounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/c/c1/Open_front_rounded_vowel.ogg">
+                  ɶ
+                </ipa-sound>
+              </div>
+              <div class="cell" style="translate: 13rem 0;">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Open_central_unrounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/5/50/Open_central_unrounded_vowel.ogg">
+                  ä
+                </ipa-sound>
+                <ipa-sound></ipa-sound>
+              </div>
+              <div class="cell" style="translate: 15.8rem 0;">
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Open_back_unrounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/e/e5/Open_back_unrounded_vowel.ogg">
+                  ɑ
+                </ipa-sound>
+                <ipa-sound
+                  wiki="https://en.wikipedia.org/wiki/Open_back_rounded_vowel"
+                  sound="https://upload.wikimedia.org/wikipedia/commons/3/31/PR-open_back_rounded_vowel.ogg">
+                  ɒ
+                </ipa-sound>
+              </div>
+            </div>
+          </div>
+          <!-- Graph (the funny lines) -->
+          <div>
+            <svg width="280" height="210"
+              xmlns="http://www.w3.org/2000/svg">
+              <g>
+                <title>Layer 1</title>
+                <!-- v front -->
+                <path id="svg_1" d="M90,40 L180,194" stroke="#000"
+                  fill="none" />
+                <!-- h close -->
+                <path id="svg_2" d="M90,40 H270" stroke="#000"
+                  fill="none" />
+                <!-- h open-mid -->
+                <path id="svg_3" d="m151,144 H270" stroke="#000"
+                  fill="none" />
+                <!-- h open -->
+                <path id="svg_4" d="m180,194 H270" stroke="#000"
+                  fill="none" />
+                <!-- h close-mid -->
+                <path id="svg_5" d="m122,94 H270" stroke="#000"
+                  fill="none" />
+                <!-- v central -->
+                <path id="svg_6" d="m180,40 L225,194" stroke="#000"
+                  fill="none" />
+                <!-- v back -->
+                <path id="svg_7" d="m270,40 L270,194" stroke="#000"
+                  fill="none" />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </figure>
+      <p>Where symbols appear in pairs, the one to the right
+        represents a rounded vowel.</p>
+    </section>
+
+    <!-- SOMETHING ELSE? -->
+    <section id="suprasegmentals">
+      <table>
+        <caption>Suprasegmentals</caption>
+        <colgroup class="colhead"></colgroup>
+        <colgroup class=""></colgroup>
+        <tbody>
+          <tr>
+            <th>
+              ˈ
+            </th>
+            <td>
+              Primary stress - appears before stressed syllable.
+              Denotes that the next syllable is under stress.
+            </td>
+          </tr>
+          <tr>
+            <th>ˌ</th>
+            <td>Secondary stress - appears before stressed syllable.
+              ...</td>
+          </tr>
+          <tr>
+            <th>ː</th>
+            <td>
+              Long - ...
+            </td>
+          </tr>
+          <tr>
+            <th>ˑ</th>
+            <td>
+              Half-long
+            </td>
+          </tr>
+          <tr>
+            <th>^</th>
+            <td>
+              Extra-short
+            </td>
+          </tr>
+          <tr>
+            <th>|</th>
+            <td>
+              Minor (foot) group
+            </td>
+          </tr>
+          <tr>
+            <th>‖</th>
+            <td>
+              Major (intonation) group
+            </td>
+          </tr>
+          <tr>
+            <th>.</th>
+            <td>
+              Syllable break - ...
+            </td>
+          </tr>
+          <tr>
+            <th>‿</th>
+            <td>
+              Linking (absence of a break)
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer>Yuri Klar | <a
+      href="https://github.com/yurimimi/ipa-tables">project repo</a>
+  </footer>
+</body>
+
+</html>
